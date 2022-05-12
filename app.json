@@ -1,0 +1,35 @@
+{
+    "name": "Stormgain miner",
+    "description": "A tool for mining.",
+    "repository": "https://github.com/PremRaj12345/stormgain",
+    "logo": "https://stormgain.com/themes/custom/stormgain/favicon.png",
+    "keywords": ["Stormgain", "bot", "miner"],
+    "buildpacks": [
+            { "url": "heroku/google-chrome" },
+            { "url": "heroku/python" }
+          ],
+    "env": {
+            "stormgain_email": {
+              "description": "Stormgain's email.",
+              "value": "example@gmail.com"
+            },
+            "stormgain_pw": {
+              "description": "Stormgain's password.",
+              "value": "example"
+            },
+            "stormgainsleepMIN": {
+              "description": "StormgainsleepMIN.",
+              "value": "14400"
+            },
+
+            "stormgainsleepMAX": {
+
+              "description": "StormgainsleepMAX.",
+
+              "value": "18000"
+
+            }
+          }
+    
+}
+
